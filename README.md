@@ -14,3 +14,11 @@
 ```zsh
 k apply -k argocd
 ```
+
+### Install Panopticon
+
+```zsh
+k apply -f panopticon.yaml
+# The output should be:
+# $ application.argoproj.io/panopticon created
+```
