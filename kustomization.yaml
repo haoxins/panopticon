@@ -3,5 +3,7 @@ kind: Kustomization
 
 resources:
 - argocd-applications/argocd.yaml
-# Common
 - argocd-applications/istio-operator.yaml
+# Kubeflow
+- argocd-applications/kubeflow-namespace.yaml
+- argocd-applications/kubeflow-roles.yaml
