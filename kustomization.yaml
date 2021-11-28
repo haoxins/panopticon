@@ -5,6 +5,9 @@ resources:
 - argocd-applications/argocd.yaml
 # Dapr
 - argocd-applications/dapr.yaml
+# GraphScope
+- argocd-applications/graphscope-store.yaml
+- argocd-applications/graphscope.yaml
 # Istio
 - argocd-applications/istio-operator.yaml
 # Kubeflow
