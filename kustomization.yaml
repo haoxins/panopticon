@@ -3,6 +3,9 @@ kind: Kustomization
 
 resources:
 - argocd-applications/argocd.yaml
+# Dapr
+- argocd-applications/dapr.yaml
+# Istio
 - argocd-applications/istio-operator.yaml
 # Kubeflow
 - argocd-applications/kubeflow-namespace.yaml
