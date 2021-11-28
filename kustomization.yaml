@@ -7,4 +7,4 @@ resources:
 # Kubeflow
 - argocd-applications/kubeflow-namespace.yaml
 - argocd-applications/kubeflow-roles.yaml
-- argocd-applications/pipelines.yaml
+- argocd-applications/kubeflow-pipelines.yaml

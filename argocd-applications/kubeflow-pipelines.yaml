@@ -1,7 +1,7 @@
 apiVersion: argoproj.io/v1alpha1
 kind: Application
 metadata:
-  name: pipelines
+  name: kubeflow-pipelines
   namespace: argocd
 spec:
   project: default
