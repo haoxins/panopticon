@@ -6,21 +6,21 @@ data:
   spawner_ui_config.yaml: |
     spawnerFormDefaults:
       image:
-        value: ghcr.io/pluralsh/kubeflow-notebooks-jupyter-scipy:v1.0.0
+        value: ghcr.io/pluralsh/kubeflow-notebooks-jupyter-scipy:v1.0.186
         options:
-          - ghcr.io/pluralsh/kubeflow-notebooks-jupyter-scipy:v1.0.0
-          - ghcr.io/pluralsh/kubeflow-notebooks-jupyter-pytorch-full:v1.0.0
-          - ghcr.io/pluralsh/kubeflow-notebooks-jupyter-pytorch-full-cuda:v1.0.0
-          - ghcr.io/pluralsh/kubeflow-notebooks-jupyter-tensorflow-full:v1.0.0
-          - ghcr.io/pluralsh/kubeflow-notebooks-jupyter-tensorflow-full-cuda:v1.0.0
+          - ghcr.io/pluralsh/kubeflow-notebooks-jupyter-scipy:v1.0.186
+          - ghcr.io/pluralsh/kubeflow-notebooks-jupyter-pytorch-full:v1.0.186
+          - ghcr.io/pluralsh/kubeflow-notebooks-jupyter-pytorch-full-cuda:v1.0.186
+          - ghcr.io/pluralsh/kubeflow-notebooks-jupyter-tensorflow-full:v1.0.186
+          - ghcr.io/pluralsh/kubeflow-notebooks-jupyter-tensorflow-full-cuda:v1.0.186
       imageGroupOne:
-        value: ghcr.io/pluralsh/kubeflow-notebooks-codeserver-python:v1.0.0
+        value: ghcr.io/pluralsh/kubeflow-notebooks-codeserver-python:v1.0.186
         options:
-          - ghcr.io/pluralsh/kubeflow-notebooks-codeserver-python:v1.0.0
+          - ghcr.io/pluralsh/kubeflow-notebooks-codeserver-python:v1.0.186
       imageGroupTwo:
-        value: ghcr.io/pluralsh/kubeflow-notebooks-rstudio-tidyverse:v1.0.0
+        value: ghcr.io/pluralsh/kubeflow-notebooks-rstudio-tidyverse:v1.0.186
         options:
-          - ghcr.io/pluralsh/kubeflow-notebooks-rstudio-tidyverse:v1.0.0
+          - ghcr.io/pluralsh/kubeflow-notebooks-rstudio-tidyverse:v1.0.186
       allowCustomImage: true
       imagePullPolicy:
         value: IfNotPresent
@@ -41,15 +41,15 @@ data:
           type:
             value: New
           name:
-            value: 'workspace-{notebook-name}'
+            value: "workspace-{notebook-name}"
           size:
-            value: '5Gi'
+            value: "5Gi"
           mountPath:
             value: /home/jovyan
           accessModes:
             value: ReadWriteOnce
           class:
-            value: '{none}'
+            value: "{none}"
         readOnly: false
       dataVolumes:
         value: []
