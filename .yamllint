@@ -1,0 +1,17 @@
+extends: default
+rules:
+  line-length:
+    max: 160
+    level: warning
+    ignore: |
+      /oidc-auth-dex/dex-config-secret.yaml
+      /oidc-auth-dex/oauth2-proxy-secret.yaml
+  indentation:
+    spaces: 2
+    indent-sequences: false
+  quoted-strings:
+    required: false
+    quote-type: double
+  document-start: disable
+  comments:
+    min-spaces-from-content: 0
