@@ -1,6 +1,9 @@
 
 ## Panopticon
 
+> **Warning**: This is a demo or PoC project,
+  will not consider any security issue.
+
 * A simplified K8s native ML platform that
   integrates the below components.
   - [Kubeflow Pipelines](https://github.com/kubeflow/pipelines)
