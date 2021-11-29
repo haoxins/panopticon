@@ -4,6 +4,7 @@ kind: Kustomization
 resources:
 - argocd-applications/argocd.yaml
 - argocd-applications/cert-manager.yaml
+- argocd-applications/dex.yaml
 # Dapr
 - argocd-applications/dapr.yaml
 # GraphScope
