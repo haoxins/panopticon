@@ -8,6 +8,8 @@ resources:
 # Auth
 - argocd-applications/dex.yaml
 - argocd-applications/oauth2-proxy.yaml
+- argocd-applications/oidc-auth.yaml
+- argocd-applications/profile-controller_access-management.yaml
 # Dapr
 - argocd-applications/dapr.yaml
 # GraphScope

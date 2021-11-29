@@ -14,8 +14,8 @@ spec:
   - to:
     - operation:
         hosts:
-        - "/auth/local/login"
-        - "/"
+        - /auth/local/login
+        - /
 ---
 apiVersion: security.istio.io/v1beta1
 kind: AuthorizationPolicy
