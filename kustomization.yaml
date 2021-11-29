@@ -4,7 +4,10 @@ kind: Kustomization
 resources:
 - argocd-applications/argocd.yaml
 - argocd-applications/cert-manager.yaml
+- argocd-applications/sealed-secrets.yaml
+# Auth
 - argocd-applications/dex.yaml
+- argocd-applications/oauth2-proxy.yaml
 # Dapr
 - argocd-applications/dapr.yaml
 # GraphScope
@@ -24,5 +27,3 @@ resources:
 - argocd-applications/kubeflow-roles.yaml
 - argocd-applications/kubeflow-training-operator.yaml
 - argocd-applications/kubeflow-volumes-webapp.yaml
-# Sealed Secrets
-- argocd-applications/sealed-secrets.yaml
