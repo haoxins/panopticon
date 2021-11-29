@@ -15,5 +15,6 @@ resources:
 - argocd-applications/kubeflow-namespace.yaml
 - argocd-applications/kubeflow-roles.yaml
 - argocd-applications/kubeflow-pipelines.yaml
+- argocd-applications/training-operator.yaml
 # Sealed Secrets
 - argocd-applications/sealed-secrets.yaml
