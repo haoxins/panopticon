@@ -1,0 +1,16 @@
+apiVersion: networking.istio.io/v1alpha3
+kind: Gateway
+metadata:
+  name: auth-gateway
+  namespace: auth
+spec:
+  selector:
+    istio: ingressgateway
+  servers:
+  - hosts:
+    - "/auth/local/login"
+    port:
+      name: http
+      number: 80
+      protocol: HTTP
+    tls:
