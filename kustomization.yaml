@@ -14,9 +14,11 @@ resources:
 - argocd-applications/istio-resources.yaml
 - argocd-applications/istio.yaml
 # Kubeflow
+- argocd-applications/kubeflow-central-dashboard.yaml
+- argocd-applications/kubeflow-jupyter-webapp.yaml
 - argocd-applications/kubeflow-namespace.yaml
-- argocd-applications/kubeflow-roles.yaml
 - argocd-applications/kubeflow-pipelines.yaml
+- argocd-applications/kubeflow-roles.yaml
 - argocd-applications/kubeflow-training-operator.yaml
 - argocd-applications/kubeflow-volumes-webapp.yaml
 # Sealed Secrets
