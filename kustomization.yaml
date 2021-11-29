@@ -11,6 +11,8 @@ resources:
 - argocd-applications/graphscope.yaml
 # Istio
 - argocd-applications/istio-operator.yaml
+- argocd-applications/istio-resources.yaml
+- argocd-applications/istio.yaml
 # Kubeflow
 - argocd-applications/kubeflow-namespace.yaml
 - argocd-applications/kubeflow-roles.yaml
