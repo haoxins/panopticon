@@ -47,5 +47,3 @@ pip install bcrypt passlib
 ```
 
 ### Notes
-
-* `gs-engine-graphscope` will request `1.2G`

@@ -45,6 +45,12 @@ spec:
         value: .localhost
       - name: extraArgs.oidc-issuer-url
         value: http://localhost
+      - name: extraArgs.login-url
+        value: /auth
+      - name: extraArgs.oidc-jwks-url
+        value: /keys
+      - name: extraArgs.redeem-url
+        value: /token
       - name: extraArgs.scope
         value: openid profile email
       - name: extraArgs.user-id-claim
