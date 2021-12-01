@@ -44,3 +44,8 @@ k apply -f panopticon.yaml
 # The output should be:
 # $ application.argoproj.io/panopticon created
 ```
+
+### Notes
+
+* `graphscope-coordinator` will request `8.6G`
+* `gs-engine-graphscope` will request `1.2G`
