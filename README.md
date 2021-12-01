@@ -35,14 +35,15 @@ k get secret argocd-initial-admin-secret \
 ### Install Panopticon
 
 ```zsh
-pip install bcrypt passlib
-./setup_credentials.sh
-```
-
-```zsh
 k apply -f panopticon.yaml
 # The output should be:
 # $ application.argoproj.io/panopticon created
+```
+
+```zsh
+# This action requires the service "sealed-secrets-controller"
+pip install bcrypt passlib
+./setup_credentials.sh
 ```
 
 ### Notes
