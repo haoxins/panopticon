@@ -9,6 +9,10 @@ spec:
     repoURL: https://graphscope.oss-cn-beijing.aliyuncs.com/charts
     targetRevision: 0.8.0
     chart: graphscope
+    helm:
+      parameters:
+      - name: coordinator.service.resources.requests.memory
+        value: 2Gi
   destination:
     server: https://kubernetes.default.svc
     namespace: graphscope-system

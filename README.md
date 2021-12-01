@@ -48,5 +48,4 @@ pip install bcrypt passlib
 
 ### Notes
 
-* `graphscope-coordinator` will request `8.6G`
 * `gs-engine-graphscope` will request `1.2G`
