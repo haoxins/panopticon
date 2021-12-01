@@ -6,6 +6,7 @@
 
 * A simplified K8s native ML platform that
   integrates the below components.
+  - [MLflow](https://github.com/mlflow/mlflow)
   - [Kubeflow Pipelines](https://github.com/kubeflow/pipelines)
   - [Kubeflow Training Operator](https://github.com/kubeflow/training-operator)
   - [Dapr](https://github.com/dapr/dapr)
