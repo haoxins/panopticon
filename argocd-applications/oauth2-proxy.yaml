@@ -24,7 +24,7 @@ spec:
       - name: extraArgs.set-xauthrequest
         value: "true"
       - name: extraArgs.cookie-secure
-        value: "false" # This project is not for production!
+        value: "true"
       - name: extraArgs.cookie-samesite
         value: lax
       - name: extraArgs.cookie-refresh
@@ -44,7 +44,7 @@ spec:
       - name: extraArgs.whitelist-domain
         value: .localhost:8888
       - name: extraArgs.oidc-issuer-url
-        value: http://localhost:8888
+        value: https://localhost:8888
       - name: extraArgs.login-url
         value: /auth
       - name: extraArgs.oidc-jwks-url
