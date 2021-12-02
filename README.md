@@ -46,4 +46,23 @@ pip install bcrypt passlib
 ./setup_credentials.sh
 ```
 
-### Notes
+## Notes
+
+### GraphScope
+
+* ReplicaSet: `gs-engine-graphscope`
+* Pod: `graphscope-coordinator`
+  - Containers: [`coordinator-container`, `jupyter`]
+* Pod: `gs-engine-graphscope`
+  - Container: [`engine`, `vineyard`]
+
+### GraphScope Store
+
+* StatefulSet
+  - `graphscope-store-coordinator`
+* StatefulSet
+  - `graphscope-store-frontend`
+* StatefulSet
+  - `graphscope-store-ingestor`
+* StatefulSet
+  - `graphscope-store-store`
