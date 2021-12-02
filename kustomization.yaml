@@ -4,6 +4,7 @@ kind: Kustomization
 resources:
 - argocd-applications/argocd.yaml
 - argocd-applications/cert-manager.yaml
+- argocd-applications/certificates.yaml
 - argocd-applications/sealed-secrets.yaml
 # Auth
 - argocd-applications/dex.yaml

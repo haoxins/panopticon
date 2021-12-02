@@ -14,4 +14,13 @@ spec:
       number: 80
       protocol: HTTP
     tls:
-      httpsRedirect: false
+      httpsRedirect: true
+  - hosts:
+    - "*"
+    port:
+      name: https
+      number: 443
+      protocol: HTTPS
+    tls:
+      mode: SIMPLE
+      credentialName: kubeflow-ingressgateway-certs
