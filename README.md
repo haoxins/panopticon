@@ -46,6 +46,13 @@ pip install bcrypt passlib
 ./setup_credentials.sh
 ```
 
+### Access the dashboard
+
+```zsh
+k port-forward svc/istio-ingressgateway \
+  -n istio-system 8888:80
+```
+
 ## Notes
 
 ### GraphScope

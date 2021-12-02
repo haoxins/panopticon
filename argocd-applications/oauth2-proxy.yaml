@@ -24,7 +24,7 @@ spec:
       - name: extraArgs.set-xauthrequest
         value: "true"
       - name: extraArgs.cookie-secure
-        value: "true"
+        value: "false" # This project is not for production!
       - name: extraArgs.cookie-samesite
         value: lax
       - name: extraArgs.cookie-refresh
