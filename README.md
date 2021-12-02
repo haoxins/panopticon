@@ -50,7 +50,7 @@ pip install bcrypt passlib
 
 ```zsh
 k port-forward svc/istio-ingressgateway \
-  -n istio-system 8888:80
+  -n istio-system 8888:443
 ```
 
 ## Notes
