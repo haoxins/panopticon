@@ -40,11 +40,11 @@ spec:
       - name: extraArgs.skip-provider-button
         value: "true"
       - name: extraArgs.cookie-domain
-        value: .localhost
+        value: .localhost:8888
       - name: extraArgs.whitelist-domain
-        value: .localhost
+        value: .localhost:8888
       - name: extraArgs.oidc-issuer-url
-        value: http://localhost
+        value: http://localhost:8888
       - name: extraArgs.login-url
         value: /auth
       - name: extraArgs.oidc-jwks-url

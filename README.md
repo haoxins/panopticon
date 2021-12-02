@@ -52,9 +52,9 @@ pip install bcrypt passlib
 
 * ReplicaSet: `gs-engine-graphscope`
 * Pod: `graphscope-coordinator`
-  - Containers: [`coordinator-container`, `jupyter`]
+  - Containers: `coordinator-container`, `jupyter`
 * Pod: `gs-engine-graphscope`
-  - Container: [`engine`, `vineyard`]
+  - Containers: `engine`, `vineyard`
 
 ### GraphScope Store
 
