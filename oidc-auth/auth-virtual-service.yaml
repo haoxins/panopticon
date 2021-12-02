@@ -9,8 +9,7 @@ spec:
   gateways:
   - auth-gateway
   hosts:
-  - /auth # /local/login
-  - /oauth2
+  - /auth/local/login
   http:
   - route:
     - destination:
