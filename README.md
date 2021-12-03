@@ -46,6 +46,12 @@ pip install bcrypt passlib
 ./setup_credentials.sh
 ```
 
+* If you only want to deploy single application
+
+```zsh
+k apply -f argocd-applications/dapr.yaml
+```
+
 ### Access the dashboard
 
 ```zsh
