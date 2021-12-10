@@ -1,14 +1,14 @@
 apiVersion: argoproj.io/v1alpha1
 kind: Application
 metadata:
-  name: kubeflow-pod-defaults
+  name: kubeflow-notebook-pod-defaults
   namespace: argocd
 spec:
   project: default
   source:
     repoURL: https://github.com/haoxins/panopticon.git
     targetRevision: main
-    path: kubeflow/notebooks-pod-defaults
+    path: kubeflow/notebook-pod-defaults
   destination:
     server: https://kubernetes.default.svc
   syncPolicy:
