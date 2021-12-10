@@ -12,9 +12,7 @@
   - [Dapr](https://github.com/dapr/dapr)
   - [GraphScope](https://github.com/alibaba/GraphScope)
 * We use [Argo CD](https://github.com/argoproj/argo-cd) to maintain the cluster.
-* Base components
-  - Istio: `v1.11`
-  - Dapr: `v1.5`
+* Tested Kubernetes: `v1.21`
 
 ### Install Argo CD
 
