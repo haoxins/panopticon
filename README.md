@@ -31,7 +31,7 @@ k apply -f panopticon.yaml
 ```zsh
 # This action requires the service "sealed-secrets-controller"
 pip install bcrypt passlib
-./setup_credentials.sh
+email=test@demo.me username=test password=test ./setup_credentials.sh
 ```
 
 * If you only want to deploy single application
