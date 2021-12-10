@@ -20,19 +20,6 @@
 k apply -k argocd
 ```
 
-* To access the Argo CD UI
-
-```zsh
-k port-forward svc/argocd-server \
-  -n argocd 8080:443
-
-# Username: admin
-# Get password
-k get secret argocd-initial-admin-secret \
-  -n argocd \
-  -o jsonpath="{.data.password}" | base64 -d
-```
-
 ### Install Panopticon
 
 ```zsh
@@ -51,6 +38,19 @@ pip install bcrypt passlib
 
 ```zsh
 k apply -f argocd-applications/dapr.yaml
+```
+
+### Access the Argo CD UI
+
+```zsh
+k port-forward svc/argocd-server \
+  -n argocd 8080:443
+
+# Username: admin
+# Get password
+k get secret argocd-initial-admin-secret \
+  -n argocd \
+  -o jsonpath="{.data.password}" | base64 -d
 ```
 
 ### Access the dashboard
