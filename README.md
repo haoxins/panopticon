@@ -12,7 +12,8 @@
   - [Dapr](https://github.com/dapr/dapr)
   - [GraphScope](https://github.com/alibaba/GraphScope)
 * We use [Argo CD](https://github.com/argoproj/argo-cd) to maintain the cluster.
-* Tested Kubernetes: `v1.21`
+
+* Kubernetes: `v1.22+`
 
 ### Install Argo CD
 
