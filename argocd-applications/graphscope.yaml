@@ -11,12 +11,12 @@ spec:
     chart: graphscope
     helm:
       parameters:
-      - name: coordinator.service.resources.requests.memory
-        value: 2Gi
-      - name: engines.resources.requests.memory
-        value: 2Gi
-      - name: vineyard.shared_mem
-        value: 2Gi
+      # - name: coordinator.service.resources.requests.memory
+      #   value: 2Gi
+      # - name: engines.resources.requests.memory
+      #   value: 2Gi
+      # - name: vineyard.shared_mem
+      #   value: 2Gi
       - name: jupyter.resources.requests.memory
         value: 2Gi
   destination:
