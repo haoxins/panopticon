@@ -13,8 +13,8 @@ spec:
       parameters:
       - name: global.prometheus.enabled
         value: "false"
-      - name: dapr_placement.replicaCount
-        value: "0"
+      # - name: dapr_placement.replicaCount
+      #   value: "0"
   destination:
     server: https://kubernetes.default.svc
     namespace: dapr-system
