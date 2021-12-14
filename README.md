@@ -2,7 +2,7 @@
 ## Panopticon
 
 > **Warning**: This is a demo or PoC project,
-  will not consider any security issue.
+  **will not consider any security issue**.
 
 * A simplified K8s native ML platform that
   integrates the below components.
@@ -27,12 +27,6 @@ k apply -k argocd
 k apply -f panopticon.yaml
 # The output should be:
 # $ application.argoproj.io/panopticon created
-```
-
-```zsh
-# This action requires the service "sealed-secrets-controller"
-pip install bcrypt passlib
-email=test@demo.me username=test password=test ./setup_credentials.sh
 ```
 
 * If you only want to deploy single application
