@@ -6,11 +6,10 @@
 
 * A simplified K8s native ML platform that
   integrates the below components.
-  - [MLflow](https://github.com/mlflow/mlflow)
   - [Kubeflow Pipelines](https://github.com/kubeflow/pipelines)
   - [Kubeflow Training Operator](https://github.com/kubeflow/training-operator)
-  - [Dapr](https://github.com/dapr/dapr)
   - [GraphScope](https://github.com/alibaba/GraphScope)
+  - [Dapr](https://github.com/dapr/dapr)
 * We use [Argo CD](https://github.com/argoproj/argo-cd) to maintain the cluster.
 
 * Kubernetes: `v1.22+`
@@ -53,25 +52,9 @@ k get secret argocd-initial-admin-secret \
 ```zsh
 k port-forward svc/istio-ingressgateway \
   -n istio-system 8888:443
+
+# Username: test@demo.me
+# Password: test
 ```
 
 ## Notes
-
-### GraphScope
-
-* ReplicaSet: `gs-engine-graphscope`
-* Pod: `graphscope-coordinator`
-  - Containers: `coordinator-container`, `jupyter`
-* Pod: `gs-engine-graphscope`
-  - Containers: `engine`, `vineyard`
-
-### GraphScope Store
-
-* StatefulSet
-  - `graphscope-store-coordinator`
-* StatefulSet
-  - `graphscope-store-frontend`
-* StatefulSet
-  - `graphscope-store-ingestor`
-* StatefulSet
-  - `graphscope-store-store`
