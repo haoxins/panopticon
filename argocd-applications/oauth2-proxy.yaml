@@ -40,9 +40,9 @@ spec:
       - name: extraArgs.skip-provider-button
         value: "true"
       - name: extraArgs.cookie-domain
-        value: .localhost # Cookies do not provide isolation by port.
+        value: "" # Cookies do not provide isolation by port.
       - name: extraArgs.whitelist-domain
-        value: .localhost
+        value: localhost
       - name: extraArgs.oidc-issuer-url
         value: https://localhost
       - name: extraArgs.login-url
