@@ -7,6 +7,7 @@ resources:
 - argocd-applications/certificates.yaml
 # Auth
 - argocd-applications/dex.yaml
+- argocd-applications/external-secrets.yaml
 - argocd-applications/oauth2-proxy.yaml
 - argocd-applications/oidc-auth.yaml
 - argocd-applications/profile-controller_access-management.yaml
