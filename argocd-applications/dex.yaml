@@ -13,42 +13,6 @@ spec:
         value: "false"
       - name: configSecret.name
         value: dex-config
-      - name: config.issuer
-        value: https://localhost
-      - name: config.storage.type
-        value: kubernetes
-      - name: config.storage.config.inCluster
-        value: "true"
-      - name: config.web.http
-        value: 0.0.0.0:5556
-      - name: config.logger.level
-        value: debug
-      - name: config.logger.format
-        value: text
-      - name: config.oauth2.skipApprovalScreen
-        value: "true"
-      - name: config.expiry.signingKeys
-        value: 4h
-      - name: config.expiry.idTokens
-        value: 1h
-      - name: config.enablePasswordDB
-        value: "true"
-      - name: config.staticPasswords[0].email
-        value: test@demo.me
-      - name: config.staticPasswords[0].username
-        value: test
-      - name: config.staticPasswords[0].hash
-        value: "\$2y\$12\$rFM4DHFw4fmXZg.VInjQkuY98WvUkDH8/VvDB1B3dpZyH9LnXlpIS" # The origin value is: test
-      - name: config.staticPasswords[0].userID
-        value: "15841185641784"
-      - name: config.staticClients[0].name
-        value: Dex Login Application
-      - name: config.staticClients[0].id
-        value: f5adaf0cfffa20bb685168343fbdc8d7
-      - name: config.staticClients[0].secret
-        value: bf31b4f7cbcdcd96937db71359862a88d02f5b2ac445c0dff80d41513f9c065b
-      - name: config.staticClients[0].redirectURIs[0]
-        value: /oauth2/callback
     repoURL: https://charts.dexidp.io
     targetRevision: 0.6.3
   destination:
