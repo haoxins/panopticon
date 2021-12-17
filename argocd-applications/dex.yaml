@@ -38,7 +38,7 @@ spec:
       - name: config.staticPasswords[0].username
         value: test
       - name: config.staticPasswords[0].hash
-        value: "$2y$12$rFM4DHFw4fmXZg.VInjQkuY98WvUkDH8/VvDB1B3dpZyH9LnXlpIS" # The origin value is: test
+        value: "\$2y\$12\$rFM4DHFw4fmXZg.VInjQkuY98WvUkDH8/VvDB1B3dpZyH9LnXlpIS" # The origin value is: test
       - name: config.staticPasswords[0].userID
         value: "15841185641784"
       - name: config.staticClients[0].name
