@@ -7,7 +7,7 @@ spec:
   project: default
   source:
     repoURL: https://github.com/haoxins/panopticon.git
-    targetRevision: main
+    targetRevision: deploy
     path: profile-controller_access-management
   destination:
     server: https://kubernetes.default.svc
