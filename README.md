@@ -22,6 +22,8 @@ k apply -k argocd
 
 ### Install Panopticon
 
+* Change the IP placeholder `localhost` with your cluster IP
+
 ```zsh
 k apply -f panopticon.yaml
 # The output should be:
@@ -39,7 +41,6 @@ k apply -f argocd-applications/dapr.yaml
 ```zsh
 k port-forward svc/argocd-server \
   -n argocd 8080:443
-
 # Username: admin
 # Get password
 k get secret argocd-initial-admin-secret \
@@ -49,12 +50,7 @@ k get secret argocd-initial-admin-secret \
 
 ### Access the dashboard
 
-```zsh
-k port-forward svc/istio-ingressgateway \
-  -n istio-system 8888:443
-
-# Username: test@demo.me
-# Password: test
-```
+* Username: test@demo.me
+* Password: test
 
 ## Notes
