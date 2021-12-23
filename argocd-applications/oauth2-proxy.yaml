@@ -40,7 +40,9 @@ spec:
       - name: extraArgs.skip-provider-button
         value: "true"
       - name: extraArgs.cookie-domain
-        value: "" # Cookies do not provide isolation by port.
+        # 1. Cookies do not provide isolation by port.
+        # 2. localhost is not a valid domain
+        value: ""
       - name: extraArgs.whitelist-domain
         value: localhost
       - name: extraArgs.oidc-issuer-url
