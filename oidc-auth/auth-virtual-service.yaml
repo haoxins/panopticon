@@ -7,12 +7,15 @@ metadata:
     app: auth
 spec:
   gateways:
-  - auth-gateway
+  - kubeflow/kubeflow-gateway
   hosts:
-  - "/auth*"
+  - "*"
   http:
-  - route:
+  - match:
+    - uri:
+        prefix: /auth
+    route:
     - destination:
-        host: dex
+        host: dex.auth.svc.cluster.local
         port:
           number: 5556
