@@ -50,9 +50,9 @@ spec:
       - name: extraArgs.login-url
         value: /auth
       - name: extraArgs.oidc-jwks-url
-        value: /keys
+        value: /auth/keys
       - name: extraArgs.redeem-url
-        value: /token
+        value: /auth/token
       - name: extraArgs.scope
         value: openid profile email
       - name: extraArgs.user-id-claim
