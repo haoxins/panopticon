@@ -8,7 +8,7 @@ spec:
     istio: ingressgateway
   servers:
   - hosts:
-    - /auth # /local/login
+    - /auth/local/login
     port:
       name: http
       number: 80
@@ -16,7 +16,7 @@ spec:
     tls:
       httpsRedirect: true
   - hosts:
-    - /auth # /local/login
+    - /auth/local/login
     port:
       name: https
       number: 443

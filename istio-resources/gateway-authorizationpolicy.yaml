@@ -32,4 +32,4 @@ spec:
   - to:
     - operation:
         hosts:
-        - "/auth"
+        - /auth
