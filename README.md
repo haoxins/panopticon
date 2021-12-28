@@ -50,7 +50,7 @@ k get secret argocd-initial-admin-secret \
 
 ### Access the dashboard
 
-* Username: test@demo.me
-* Password: test
+* Username: `test@demo.me`
+* Password: `test`
 
 ## Notes
