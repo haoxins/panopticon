@@ -14,6 +14,8 @@ spec:
   - match:
     - uri:
         prefix: /auth
+    - uri:
+        prefix: /oauth2
     route:
     - destination:
         host: dex.auth.svc.cluster.local
