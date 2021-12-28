@@ -61,7 +61,7 @@ spec:
         value: "true"
       - name: extraArgs.ssl-insecure-skip-verify
         value: "false"
-      - name: extraArgs.skip-auth-route[0]
+      - name: extraArgs.skip-auth-route
         value: /auth
     repoURL: https://oauth2-proxy.github.io/manifests
     targetRevision: 5.0.6
