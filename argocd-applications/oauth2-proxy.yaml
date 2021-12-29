@@ -12,7 +12,7 @@ spec:
       - name: image.repository
         value: quay.io/oauth2-proxy/oauth2-proxy
       - name: image.tag
-        value: v7.2.0
+        value: v7.2.1
       - name: configSecret.create
         value: "false"
       - name: config.existingSecret
