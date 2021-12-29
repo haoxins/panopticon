@@ -42,11 +42,11 @@ spec:
       - name: extraArgs.cookie-domain
         # 1. Cookies do not provide isolation by port
         # 2. localhost is not a valid domain
-        value: 34.124.196.56
+        value: 34.124.228.6
       - name: extraArgs.whitelist-domain
-        value: 34.124.196.56
+        value: 34.124.228.6
       - name: extraArgs.oidc-issuer-url
-        value: https://34.124.196.56
+        value: https://34.124.228.6
       - name: extraArgs.login-url
         value: /auth
       - name: extraArgs.oidc-jwks-url
@@ -61,7 +61,7 @@ spec:
         value: "true"
       - name: extraArgs.ssl-insecure-skip-verify
         value: "false"
-      - name: extraArgs.skip-auth-route[0]
+      - name: extraArgs.skip-auth-route #[0]
         value: /auth
       # - name: extraArgs.skip-auth-route[1]
       #   value: /approval
