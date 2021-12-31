@@ -9,6 +9,7 @@ spec:
   hub: docker.io/istio
   meshConfig:
     accessLogFile: /dev/stdout
+    accessLogEncoding: JSON
     enablePrometheusMerge: false
     enableTracing: false
     defaultConfig:
