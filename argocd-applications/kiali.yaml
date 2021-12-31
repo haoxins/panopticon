@@ -24,7 +24,7 @@ spec:
       - name: cr.spec.deployment.ingress_enabled
         value: "false"
       - name: cr.spec.deployment.namespace
-        value: monitoring
+        value: istio-system
       - name: cr.spec.deployment.pod_annotations.sidecar\.istio\.io\/inject
         value: \"false\"
       - name: cr.spec.istio_namespace
