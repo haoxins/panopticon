@@ -42,11 +42,11 @@ spec:
       - name: extraArgs.cookie-domain
         # 1. Cookies do not provide isolation by port
         # 2. localhost is not a valid domain
-        value: 34.124.228.6
+        value: 34.124.196.56
       - name: extraArgs.whitelist-domain
-        value: 34.124.228.6
+        value: 34.124.196.56
       - name: extraArgs.oidc-issuer-url
-        value: https://34.124.228.6
+        value: https://34.124.196.56
       - name: extraArgs.login-url
         value: /auth
       - name: extraArgs.oidc-jwks-url
