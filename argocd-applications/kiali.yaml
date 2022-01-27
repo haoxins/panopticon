@@ -19,7 +19,7 @@ spec:
         value: istio-operator
       - name: cr.spec.api.namespaces.exclude[1]
         value: kube-.*
-      - name: cr.spec.api.namespaces.exclude[4]
+      - name: cr.spec.api.namespaces.exclude[2]
         value: kiali-operator
       - name: cr.spec.deployment.ingress_enabled
         value: "false"
