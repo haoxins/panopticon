@@ -6,4 +6,5 @@ resources:
 - envoy-filter-userid.yaml
 - gateway-authorizationpolicy.yaml
 - ingress-class.yaml
-- namespace.yaml
+- panopticon-ingress-gateway.yaml
+- panopticon-namespace.yaml

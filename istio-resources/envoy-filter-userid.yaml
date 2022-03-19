@@ -1,7 +1,7 @@
-apiVersion: networking.istio.io/v1alpha3
+apiVersion: networking.istio.io/v1beta1
 kind: EnvoyFilter
 metadata:
-  name: kubeflow-userid
+  name: userid
   namespace: istio-system
 spec:
   workloadSelector:
@@ -27,6 +27,6 @@ spec:
             function envoy_on_request(request_handle)
               headers = request_handle:headers()
               if headers:get("x-auth-request-email") then
-                request_handle:headers():add("kubeflow-userid", headers:get("x-auth-request-email"))
+                request_handle:headers():add("x-user-id", headers:get("x-auth-request-email"))
               end
             end
