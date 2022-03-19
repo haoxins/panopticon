@@ -6,10 +6,6 @@
 
 * A simplified K8s native ML platform that
   integrates the below components.
-  - [Kubeflow](https://github.com/kubeflow/kubeflow)
-  - [Kubeflow Pipelines](https://github.com/kubeflow/pipelines)
-  - [Kubeflow Training Operator](https://github.com/kubeflow/training-operator)
-  - [KServe](https://github.com/kserve/kserve)
   - [GraphScope](https://github.com/alibaba/GraphScope)
   - [Ray](https://github.com/ray-project/ray)
   - [Dapr](https://github.com/dapr/dapr)
