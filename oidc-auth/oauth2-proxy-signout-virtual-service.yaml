@@ -5,7 +5,7 @@ metadata:
   namespace: auth
 spec:
   gateways:
-  - kubeflow/kubeflow-gateway
+  - panopticon/ingress-gateway
   hosts:
   - "*"
   http:

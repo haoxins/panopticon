@@ -10,7 +10,6 @@ resources:
 - argocd-applications/external-secrets.yaml
 - argocd-applications/oauth2-proxy.yaml
 - argocd-applications/oidc-auth.yaml
-- argocd-applications/profile-controller_access-management.yaml
 # Dapr
 - argocd-applications/dapr.yaml
 # GraphScope
@@ -21,13 +20,3 @@ resources:
 - argocd-applications/istio-resources.yaml
 - argocd-applications/istio.yaml
 - argocd-applications/kiali.yaml
-# Kubeflow
-- argocd-applications/kubeflow-central-dashboard.yaml
-- argocd-applications/kubeflow-jupyter-webapp.yaml
-- argocd-applications/kubeflow-namespace.yaml
-- argocd-applications/kubeflow-notebook-controller.yaml
-- argocd-applications/kubeflow-notebook-pod-defaults.yaml
-- argocd-applications/kubeflow-pipelines.yaml
-- argocd-applications/kubeflow-roles.yaml
-- argocd-applications/kubeflow-training-operator.yaml
-- argocd-applications/kubeflow-volumes-webapp.yaml
