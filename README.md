@@ -6,9 +6,10 @@
 
 * A simplified K8s native ML platform that
   integrates the below components.
-  - [GraphScope](https://github.com/alibaba/GraphScope)
-  - [Ray](https://github.com/ray-project/ray)
   - [Dapr](https://github.com/dapr/dapr)
+  - [Ray](https://github.com/ray-project/ray)
+  - [KServe](https://github.com/kserve/kserve)
+  - [GraphScope](https://github.com/alibaba/GraphScope)
 
 * We use [Argo CD](https://github.com/argoproj/argo-cd) to maintain the cluster.
 
