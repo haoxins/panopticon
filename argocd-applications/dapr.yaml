@@ -14,9 +14,9 @@ spec:
       - name: global.prometheus.enabled
         value: "false"
       - name: dapr_operator.debug.enabled
-        value: "true"
+        value: "false"
       - name: dapr_placement.debug.enabled
-        value: "true"
+        value: "false"
   destination:
     server: https://kubernetes.default.svc
     namespace: dapr-system
