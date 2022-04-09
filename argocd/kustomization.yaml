@@ -7,4 +7,4 @@ resources:
 - https://raw.githubusercontent.com/argoproj/argo-cd/stable/manifests/install.yaml
 
 patchesStrategicMerge:
-- patches/configmap-patch.yaml
+# - patches/configmap.yaml
