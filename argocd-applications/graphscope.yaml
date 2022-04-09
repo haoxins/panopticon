@@ -11,9 +11,9 @@ spec:
     chart: graphscope
     helm:
       parameters:
-      - name: coordinator.service.resources.requests.memory
+      - name: coordinator.resources.requests.memory
         value: 512Mi
-      - name: coordinator.service.resources.requests.cpu
+      - name: coordinator.resources.requests.cpu
         value: 0.5
       - name: engines.resources.requests.memory
         value: 512Mi
