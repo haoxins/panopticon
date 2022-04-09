@@ -23,6 +23,7 @@ spec:
         value: 512Mi
       - name: jupyter.resources.requests.memory
         value: 512Mi
+      - name: jupyter.resources.requests.cpu
         value: 0.5
   destination:
     server: https://kubernetes.default.svc
