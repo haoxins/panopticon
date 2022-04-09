@@ -15,8 +15,20 @@ spec:
         value: "false"
       - name: dapr_operator.debug.enabled
         value: "false"
+      - name: dapr_operator.livenessProbe.initialDelaySeconds
+        value: 5
+      - name: dapr_operator.livenessProbe.periodSeconds
+        value: 5
+      - name: dapr_operator.livenessProbe.failureThreshold
+        value: 5
       - name: dapr_placement.debug.enabled
         value: "false"
+      - name: dapr_placement.livenessProbe.initialDelaySeconds
+        value: 15
+      - name: dapr_placement.livenessProbe.periodSeconds
+        value: 5
+      - name: dapr_placement.livenessProbe.failureThreshold
+        value: 5
   destination:
     server: https://kubernetes.default.svc
     namespace: dapr-system
