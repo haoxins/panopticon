@@ -1,19 +1,19 @@
 
 ## Panopticon
 
-> **Warning**: This is a demo or PoC project,
-  **will not consider any security issue**.
+> __Warning__: This is a __PoC__ project.
 
-* A simplified K8s native ML platform that
+- A simplified K8s native ML platform that
   integrates the below components.
   - [Dapr](https://github.com/dapr/dapr)
   - [Ray](https://github.com/ray-project/ray)
   - [KServe](https://github.com/kserve/kserve)
   - [GraphScope](https://github.com/alibaba/GraphScope)
 
-* We use [Argo CD](https://github.com/argoproj/argo-cd) to maintain the cluster.
+- We use [Argo CD](https://github.com/argoproj/argo-cd)
+  to maintain the cluster.
 
-* Kubernetes: `v1.22+`
+- Kubernetes: `v1.22+`
 
 ### Install Argo CD
 
@@ -23,7 +23,7 @@ k apply -k argocd
 
 ### Install Panopticon
 
-* Change the IP placeholder `localhost` with your cluster IP
+- Change the IP placeholder `localhost` with your cluster IP
 
 ```zsh
 k apply -f panopticon.yaml
@@ -31,7 +31,7 @@ k apply -f panopticon.yaml
 # $ application.argoproj.io/panopticon created
 ```
 
-* If you only want to deploy single application
+- If you only want to deploy single application
 
 ```zsh
 k apply -f argocd-applications/dapr.yaml
@@ -48,10 +48,3 @@ k get secret argocd-initial-admin-secret \
   -n argocd \
   -o jsonpath="{.data.password}" | base64 -d
 ```
-
-### Access the dashboard
-
-* Username: `test@demo.me`
-* Password: `test`
-
-## Notes

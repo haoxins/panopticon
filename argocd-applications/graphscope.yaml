@@ -14,17 +14,17 @@ spec:
       - name: coordinator.resources.requests.memory
         value: 512Mi
       - name: coordinator.resources.requests.cpu
-        value: 0.5
+        value: "0.5"
       - name: engines.resources.requests.memory
         value: 512Mi
       - name: engines.resources.requests.cpu
-        value: 0.5
+        value: "0.5"
       - name: vineyard.shared_mem
         value: 512Mi
       - name: jupyter.resources.requests.memory
         value: 512Mi
       - name: jupyter.resources.requests.cpu
-        value: 0.5
+        value: "0.5"
   destination:
     server: https://kubernetes.default.svc
     namespace: graphscope
