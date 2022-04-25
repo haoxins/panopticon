@@ -27,7 +27,7 @@ spec:
         value: 0.5
   destination:
     server: https://kubernetes.default.svc
-    namespace: graphscope-system
+    namespace: graphscope
   syncPolicy:
     automated:
       prune: true

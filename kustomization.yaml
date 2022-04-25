@@ -12,8 +12,6 @@ resources:
 - argocd-applications/oidc-auth.yaml
 # Dapr
 - argocd-applications/dapr.yaml
-# KServe
-- argocd-applications/kserve.yaml
 # GraphScope
 - argocd-applications/graphscope-store.yaml
 - argocd-applications/graphscope.yaml
@@ -22,3 +20,8 @@ resources:
 - argocd-applications/istio-resources.yaml
 - argocd-applications/istio.yaml
 - argocd-applications/kiali.yaml
+# KServe
+- argocd-applications/kserve.yaml
+# Ray
+- argocd-applications/ray-operator.yaml
+- argocd-applications/ray-cluster.yaml
