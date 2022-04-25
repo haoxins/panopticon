@@ -6,8 +6,8 @@ metadata:
 spec:
   project: default
   source:
-    repoURL: https://github.com/ray-project/kuberay
-    targetRevision: master
+    repoURL: https://github.com/haoxins/kuberay
+    targetRevision: helm-fix
     path: helm-chart/kuberay-operator
     helm:
       parameters:
