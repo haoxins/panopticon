@@ -7,12 +7,10 @@ spec:
   project: default
   source:
     repoURL: https://kiali.org/helm-charts
-    targetRevision: 1.49.0
+    targetRevision: 1.51.0
     chart: kiali-operator
     helm:
       parameters:
-      - name: fullnameOverride
-        value: kiali
       - name: cr.create
         value: "true"
       - name: cr.namespace
