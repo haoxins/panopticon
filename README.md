@@ -7,7 +7,6 @@
   integrates the below components.
   - [Dapr](https://github.com/dapr/dapr)
   - [Ray](https://github.com/ray-project/ray)
-  - [KServe](https://github.com/kserve/kserve)
   - [GraphScope](https://github.com/alibaba/GraphScope)
 
 - We use [Argo CD](https://github.com/argoproj/argo-cd)
